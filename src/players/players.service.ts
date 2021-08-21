@@ -12,7 +12,10 @@ export class PlayersService {
             id:uuid(),
             name:playerDTO.name,
             email: playerDTO.email,
-            phone_number: playerDTO.phone_number
+            phone_number: playerDTO.phone_number,
+            avatar_url: "",
+            ranking: "",
+            ranking_position: 1
         }
         this.playerArray.push(player)
         return player;

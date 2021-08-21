@@ -3,7 +3,7 @@ export interface PlayerModel {
     phone_number:string
     email: string
     name: string
-    ranking?: string
-    ranking_position?:number
-    avatar_url?: string
+    ranking: string
+    ranking_position:number
+    avatar_url: string
 }
